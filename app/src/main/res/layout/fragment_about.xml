@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context="com.example.rajkumar.medione.about">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="About Medione"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:text="1.What is medione"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView9"/>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:columnCount="2"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="22dp">
+
+
+
+
+        <TextView
+            android:text="1.1"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13" />
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:text="The purpose of this project is to facilitate the users\nwith an android application which will help them to\nlocate the nearest medical store with all the required\nmedicines which will save a  lot of time an effort\nwhile searching for medicines."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView225" />
+
+
+        <TextView
+            android:text="1.2"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView113" />
+        <TextView
+            android:text="The software product “MediOne” will not only be\nhelpful in day-to-day need but will be a lifesaver in\ncase of emergency medication.As the database can\nbe easily updated,the pharmacists will have the ease\nto inform the users about the medicine availability.\nNearby locations of the stores will be shown by the\nGPS before the user approaches the farther ones."
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1344" />
+
+
+
+        <TextView
+            android:text="1.3"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView134" />
+        <TextView
+            android:text=" It has been developed to save the time and effort\nspent by the user in search of the medical need.
+"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13554" />
+
+
+
+        <TextView
+            android:text="1.4"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1334" />
+        <TextView
+            android:text="The software runs on android platform with version\n4.0 or above. For retailers and customers,two\nseparate android apps are maintained. The web\nplatform is provided for the retails for the easy\nmaintenance of the database."
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13344" />
+
+
+
+
+        <TextView
+            android:text="1.5"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13e34" />
+        <TextView
+            android:text="The domain name wwww.medione.ey.es,an internet\nbased portal and medione a mobile app,operated by\nthe group of students.The domain name and mobile\napp are collectively referred to as the Website."
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25" />
+
+
+
+
+
+
+    </GridLayout>
+</RelativeLayout>
+    </ScrollView>

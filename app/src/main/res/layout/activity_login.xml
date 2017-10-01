@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+
+    android:background="@drawable/blue6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rajkumar.medione.login">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="25"
+        android:hint="Email"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/email" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Password"
+        android:id="@+id/pass"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/email"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:shadowColor="#FF000000"
+        android:textColor="#0de7bf"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1.5"
+        android:textSize="16dip"
+        android:focusable="true"
+        android:textStyle="italic"
+        android:typeface="monospace"
+
+
+
+        android:text="Sign Up"
+        android:gravity="right"
+        android:clickable="true"
+        android:onClick="register"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/textView6"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:gravity="left"
+        android:text="Don't have an account yet?"
+        android:layout_width="280dp"
+
+        android:shadowColor="#FF000000"
+        android:textColor="#2f3635"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1.5"
+        android:textSize="16dip"
+        android:focusable="true"
+        android:textStyle="italic"
+        android:typeface="monospace"
+
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/textView5"
+
+
+        android:layout_marginBottom="39dp"
+        android:layout_above="@+id/login"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Login"
+        android:backgroundTint="#0de7bf"
+        android:textColor="#f9f5f5"
+        android:background="@drawable/round_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:clickable="true"
+
+
+
+        android:shadowColor="#FF000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="0.2"
+        android:textSize="16dip"
+        android:focusable="true"
+
+        android:onClick="log"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

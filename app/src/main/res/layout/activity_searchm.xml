@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f7f2f1f1"
+    android:id="@+id/activity_searchm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rajkumar.medione.searchm">
+
+    <ListView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="#f7f2f1f1"
+        android:dividerHeight="7dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:id="@+id/listView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:background="@drawable/blue6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajkumar.medione.register">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Full Name"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/name" />
+
+    <EditText
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="12dp"
+        android:id="@+id/pass"
+        android:layout_below="@+id/name"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Confirm Password"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/pass"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/repass" />
+
+    <EditText
+        android:hint="E-Mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email"
+        android:layout_below="@+id/repass"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <EditText
+        android:hint="Phone no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/phone"
+        android:layout_below="@+id/email"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:text="Register"
+        android:textColor="#f9f5f5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:onClick="reg"
+        android:backgroundTint="#0de7bf"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="By signing up,you agree to our"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:text="Terms and Conditions"
+        android:layout_width="wrap_content"
+        android:textColor="#0de7bf"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:layout_alignBaseline="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:shadowColor="#FF000000"
+        android:textColor="#0de7bf"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1.5"
+        android:textSize="18dip"
+        android:focusable="true"
+        android:textStyle="italic"
+        android:typeface="monospace"
+
+
+
+        android:text="Login"
+        android:gravity="right"
+
+        android:clickable="true"
+        android:onClick="login"
+
+        android:layout_marginLeft="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView24" />
+
+    <TextView
+        android:text="Already have an account?"
+        android:gravity="left"
+
+
+        android:shadowColor="#FF000000"
+        android:textColor="#2f3635"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1.5"
+        android:textSize="18dip"
+        android:focusable="true"
+        android:textStyle="italic"
+        android:typeface="monospace"
+
+
+        android:layout_width="280dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/phone"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

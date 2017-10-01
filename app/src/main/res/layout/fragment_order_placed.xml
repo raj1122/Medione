@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajkumar.medione.order_placed">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:background="#b5ca9ce1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/placed"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Order Placed Succesfully"
+        android:textSize="20dp"
+        android:textColor="@color/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3" />
+
+    <TextView
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderd"
+        android:layout_alignBaseline="@+id/textView26"
+        android:layout_alignBottom="@+id/textView26"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="You have 24 hours left to collect your medicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/textView4"
+        android:layout_marginBottom="36dp"
+        android:id="@+id/textView29"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Your order Id"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView26"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="26dp"
+        android:layout_above="@+id/textView29"
+        android:layout_toLeftOf="@+id/orderd"
+        android:layout_toStartOf="@+id/orderd" />
+
+
+</RelativeLayout>

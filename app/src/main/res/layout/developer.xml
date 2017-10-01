@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- Here you put the rest of your current view-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Founder"
+        android:textSize="28dp"
+        android:textColor="@color/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"/>
+
+
+
+
+
+    <GridLayout
+        android:rowCount="4"
+        android:columnCount="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+
+        android:layout_alignParentStart="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image2"
+            android:layout_width="96dp"
+            android:layout_rowSpan="4"
+            android:layout_marginRight="50dp"
+            android:layout_height="96dp"
+            android:src="@drawable/raj"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:text="Rajat Soren"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView19"/>
+        <TextView
+            android:text="founder"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4136"/>
+        <TextView
+            android:text="B.Tech(KIIT)"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8361"/>
+
+        <TextView
+            android:text="arialstarraj@gmail.com"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView20"/>
+
+    </GridLayout>
+
+</RelativeLayout>
+</ScrollView>

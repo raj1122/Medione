@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#f7f2f1f1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <Button
+        android:text="CONFIRM"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:background="@color/edit"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirm"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:background="@drawable/grid_row_border"
+        android:id="@+id/gridLayout44"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="39dp"
+        android:layout_below="@+id/gridLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Sub Total"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Subtot" />
+        <TextView
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="10dp"
+            android:text="Sub Total"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/subprice" />
+
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Coupon Discount"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/coupondiscount" />
+        <TextView
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="10dp"
+            android:text="Apply Coupon"
+            android:textColor="#fc0909"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/applycount" />
+
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Shipping Charges"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/shippingcharge" />
+        <TextView
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="10dp"
+            android:text="(Not Available)"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/asperdlivery" />
+
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Amount Payable"
+            android:textStyle="bold|italic"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/amountpayable" />
+        <TextView
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="10dp"
+            android:text="view"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/amountpay" />
+
+        </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:columnCount="2"
+        android:background="@drawable/grid_row_border"
+        android:id="@+id/gridLayout4"
+        android:layout_marginTop="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="View"
+            android:textStyle="bold"
+            android:layout_width="170dp"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/med" />
+        <TextView
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:text="View"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:id="@+id/price" />
+
+
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Quantity"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/qty" />
+        <TextView
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="100dp"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/qtyno" />
+
+
+        <ImageButton
+            android:background="@drawable/minus"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/minus" />
+        <ImageButton
+            android:background="@drawable/plus"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/plus" />
+
+
+
+
+    </GridLayout>
+
+    <TextView
+        android:text="nd"
+        android:id="@+id/medi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_above="@+id/confirm" />
+
+    <TextView
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="Items"
+        android:gravity="center"
+        android:textColor="#111211"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/order_confirm"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="items require prescription"
+        android:textColor="#9ea39e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prescrip"
+        android:layout_alignBaseline="@+id/order_confirm"
+        android:layout_alignBottom="@+id/order_confirm"
+        android:layout_alignRight="@+id/gridLayout44"
+        android:layout_alignEnd="@+id/gridLayout44" />
+
+</RelativeLayout>

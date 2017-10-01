@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <GridLayout
+        android:background="@drawable/grid_row_border"
+        android:layout_width="match_parent"
+        android:columnCount="3"
+        android:rowCount="6"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:text="textview"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_columnSpan="3"
+            android:textColor="@color/actionbar_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ordertop"/>
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/orderid"
+            android:id="@+id/imageView5"/>
+        <TextView
+            android:text="Order ID"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/actionbar_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+        <TextView
+            android:text="TextView"
+            android:paddingLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/actionbar_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textVieworderid"/>
+
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/orderdate"
+            android:id="@+id/imageView6"/>
+        <TextView
+            android:text="Order Date"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/actionbar_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView27"/>
+        <TextView
+            android:text="TextView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@color/actionbar_background"
+            android:layout_height="wrap_content"
+            android:id="@+id/textVieworderdate"/>
+
+
+        <TextView
+            android:text="name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_columnSpan="2"
+            android:textStyle="bold|italic"
+            android:textColor="@color/actionbar_background"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewmedname"/>
+        <TextView
+            android:text="TextView"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/actionbar_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewstatus" />
+
+
+
+
+        <TextView
+            android:text="Time Left"
+            android:layout_columnSpan="2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#f70a0a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textVie"/>
+        <TextView
+            android:text="Textview"
+            android:textColor="#1ef106"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ttime"/>
+
+
+        <ImageButton
+            android:focusable="false"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/cancel"
+            android:background="#fffefe"
+            android:layout_columnSpan="3"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancle"/>
+
+
+    </GridLayout>
+
+</RelativeLayout>
